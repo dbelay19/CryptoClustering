@@ -1,7 +1,8 @@
                                         # CryptoClustering-Module 19 Challenge
-This challenge was meant to help us apply what we have learned in class about unsupervised machine learning which is used to make preddictions and find trends using unlabled data. In this particular challenge, I have tried to do market prices change analysis of crypto curriences acrros times. To do this, I have imported the necessary liberaries, loaded the csv data, read the data into DF, visualize the data in a graph, transform the data, make line and scatter graphs and PCA analysis. See details below.
+This challenge was meant to help us apply what we have learned in class about unsupervised machine learning which is used to make predictions and find trends using unlabeled data. In this particular challenge, I have tried to do market prices change analysis of crypto currencies across times. To do this, I have imported the necessary libraries, loaded the csv data, read the data into DF, visualize the data in a graph, transform the data, make line and scatter graphs and PCA analysis. See details below.
 
-* Import and data load functions
+
+* Import functions and reading 
 
 ![image](https://user-images.githubusercontent.com/117956888/235785543-04adcb34-aa73-4c4a-beac-f6e954869973.png)
 
@@ -17,7 +18,7 @@ This challenge was meant to help us apply what we have learned in class about un
 
 ![image](https://user-images.githubusercontent.com/117956888/235786461-c0042e2c-235f-4eb8-a1ec-bd864cf6422b.png)
 
-* Identifying the best value for k using the elbow in a line graph (sharp decrease in inertia)
+* Identifying the optimal value for k using the elbow method in a line graph (sharp decrease in inertia)
 
 ![image](https://user-images.githubusercontent.com/117956888/235786780-a7993fbc-4f68-4476-af73-1eb689cd88cc.png)
 
@@ -41,7 +42,7 @@ This challenge was meant to help us apply what we have learned in class about un
 
 ![image](https://user-images.githubusercontent.com/117956888/235788084-b0a6b167-a5c3-4551-b14b-8083ad59fe0d.png)
 
-Colclusion: based on the composite line charts, the optimal vaue of k is 4. However, in the scatter plot, we have seen a btter seration of clusters in the PCA analysis (please refre to composite graphs in jupyter notebook).
+Conclusion: based on the composite line charts, the optimal value of k is 4. However, in the scatter plot, we have seen a better separation of clusters in the PCA analysis (please refer to composite graphs in jupyter notebook).
 
 
 
